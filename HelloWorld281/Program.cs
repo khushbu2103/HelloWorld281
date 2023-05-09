@@ -11,7 +11,11 @@
             Console.WriteLine("please enter your name");
             human.name = Console.ReadLine();
             Console.WriteLine("please enter your height");
-            string height = Console.ReadLine();
+            human.height = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine("please enter your phoneNum");
+            human.phoneNum = Convert.ToInt64(Console.ReadLine());
+            human.Talk();
+            human.HumanDetails();
             Console.ReadLine();
 
         }

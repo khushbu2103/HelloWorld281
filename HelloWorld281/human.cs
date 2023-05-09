@@ -13,7 +13,7 @@ namespace HelloWorld281
         //access-modifier datatype variableName
         public string name;
         public float height;
-        public long phoneNumber;
+        public long phoneNum;
 
         //access-modifier returntype methodName
         public void Talk()
@@ -22,7 +22,7 @@ namespace HelloWorld281
         }
         public void HumanDetails()
         {
-            Console.WriteLine("name:{0} height:{1} phoneNumber:{2}", name, height, phoneNumber);
+            Console.WriteLine("name:{0} height:{1} phoneNum:{2}", name, height, phoneNum);
         }
 
     }
